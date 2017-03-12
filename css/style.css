@@ -1,0 +1,220 @@
+/* GENERAL STYLES
+---------------------------------------------------- */
+li, p {
+    line-height: 1.6em;
+    color: rgba(26,26,26,.6);
+}
+
+/* SECTION STYLING
+---------------------------------------------------- */
+
+section, footer {
+    line-height: 2;
+    font-size: 16px;
+}
+
+section > div, footer > div {
+    padding: 17px 17px;
+    margin: auto;
+}
+
+@media screen and (min-width: 480px) {
+    section > div, footer > div{
+        padding: 32px 32px;
+        /*margin:auto;*/
+    }	
+}
+
+@media screen and (min-width: 720px) {
+    section > div, footer > div {
+        padding: 96px 32px;
+        margin:auto;
+    }
+}
+
+section:nth-child(odd) {
+    background-color: #eee;
+}
+
+/*section:last-of-type {
+    background-color: #444;
+}*/
+
+#splash {
+    padding: 0px;
+    height: 400px;
+    background-color: #333;
+    color: #eee;
+    text-align: center;
+    margin: auto;
+}
+
+#splash> #helloTextIndex {
+    z-index: 10;
+    position: absolute;
+    left: 20%; /* used for H1 center*/
+}
+
+#splash p {
+    color: #eee;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@media screen and (max-width: 720px) {
+    #splash  p {
+        padding-top: 84px;
+        margin:auto;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    #splash {
+        height: 500px;	
+    }
+}
+
+
+/* HEADERS STYLING 
+--------------------------------------------------*/
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@media screen and (min-width: 500px) {
+    h1{
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    h1{
+        font-size: 82px;
+    }
+}
+
+h2 {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+h3 {
+    line-height: 2;
+    margin: 0px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* OTHER
+----------------------------------------------------*/
+
+.centered {
+    text-align: center;
+    margin: auto;
+}
+
+.wide {
+    max-width: 1060px;
+}
+
+.thin {
+    max-width: 820px;
+}
+
+.dark {
+    background-color: #333;
+    color: #eee;
+}
+
+.dark p {
+    color: #fff;
+}
+
+.navbar {
+    margin-bottom: -5px;
+}
+
+.navLink {
+    font-weight: 500;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #bbb;
+    margin: 5px;
+}
+
+.navLink:visited {
+    color: #bbb;
+}
+
+.navLink:active {
+    color: #fff;
+}
+
+.navLink:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.employerLink {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    color: rgba(26,26,26,.6);
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-nav {
+        float: right;
+    }
+}
+
+.overlay {
+    position: relative;
+    left: -20%; /* used for H1 center*/
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 1;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color:#444;
+}
+
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 400px;
+}
+
+/* Resposive height follow #splash*/ 
+@media screen and (min-width: 720px) {
+    .carousel, .carousel-inner {
+        height: 500px;	
+    }
+
+    .carousel img {
+        min-height: 500px;	
+    }
+}
+
+/* CLEAR FORMER STYLINGS HERE 
+-------------------------------------------------------------*/
+
+.noPadding {
+    padding: 0px;
+}
