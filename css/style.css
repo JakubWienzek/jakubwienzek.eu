@@ -161,7 +161,7 @@ h3 {
 
 .employerLink {
     text-decoration: underline;
-    text-decoration-style: dashed;
+    text-decoration-style: none;
     color: rgba(26,26,26,.6);
 }
 
