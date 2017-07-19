@@ -61,6 +61,12 @@ li, p {
     color: white;
 }
 
+#splash h1 span{
+    color: beige;
+    font-size:0.30em;
+    margin-top: -50px;
+}
+
 #contentContainer{
     width:100%;
     margin-top:100vh;
@@ -111,7 +117,7 @@ section:nth-child(odd) {
 h1 {
     font-size: 24px;
     text-align: center;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 @media screen and (min-width: 500px) {
