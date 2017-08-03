@@ -1,7 +1,11 @@
 /* GENERAL STYLES
 ---------------------------------------------------- */
+body {
+    font-size: 15px;
+}
+
 li, p {
-    line-height: 1.6em;
+    line-height: 2em;
     color: rgba(26,26,26,.6);
 }
 
