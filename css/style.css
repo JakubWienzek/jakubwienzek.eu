@@ -246,3 +246,8 @@ h3 {
 #greet {
     margin-top: 10px;
 }
+
+.aboutPicture {
+    width: 100%;
+    height: 100%;
+}
