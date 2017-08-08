@@ -62,8 +62,11 @@ li, p {
     top:0;
     left:0;
     background:#4bb8d2;
-    background:url("../img/pic2.jpg") 
+    /*background:url("../img/pic2.jpg")*/
+    background:url("../img/Przechwytywanie.PNG")
     no-repeat center;
+    background-size: 100vh;
+    background-color: #c2baa7;
     z-index:1
 }
 
