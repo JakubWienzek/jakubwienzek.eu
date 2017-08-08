@@ -64,8 +64,8 @@ li, p {
     background:#4bb8d2;
     /*http://www.peakpx.com/517019/aerial-view-of-green-pine-trees-covered-in-fog*/
     background:url("../img/forest.jpg")
-    no-repeat center;
-    background-color: #333;
+    no-repeat top;
+    background-color: #333; /*#c2baa7*/
     z-index:1
 }
 
