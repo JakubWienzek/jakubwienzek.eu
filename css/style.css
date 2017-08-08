@@ -62,10 +62,9 @@ li, p {
     top:0;
     left:0;
     background:#4bb8d2;
-    /*background:url("../img/pic2.jpg")*/
-    background:url("../img/Przechwytywanie.PNG")
+    /*http://www.peakpx.com/517019/aerial-view-of-green-pine-trees-covered-in-fog*/
+    background:url("../img/forest.jpg")
     no-repeat center;
-    background-size: 100vh;
     background-color: #c2baa7;
     z-index:1
 }
@@ -194,10 +193,6 @@ h3 {
     color: #fff;
 }
 
-.navbar {
-    margin-bottom: -5px;
-}
-
 .navLink {
     font-weight: 500;
     display: inline-block;
@@ -228,26 +223,11 @@ h3 {
     color: #888;
 }
 
-@media screen and (min-width: 768px) {
-    .navbar-nav {
-        float: right;
-    }
-}
-
-.overlay {
-    position: fixed;
-    left: -20%; /* used for H1 center*/
-}
-
 /* CLEAR FORMER STYLINGS HERE 
 -------------------------------------------------------------*/
 
 .noPadding {
     padding: 0px;
-}
-
-#greet {
-    margin-top: 10px;
 }
 
 .aboutPicture {
