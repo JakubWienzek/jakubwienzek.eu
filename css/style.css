@@ -248,9 +248,9 @@ h3 {
     }
 }
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 720px) {
     .aboutText {
-        padding: 96px 32px;
+        padding: 96px 32px 48px 32px;
         margin:auto;
     }
 }
