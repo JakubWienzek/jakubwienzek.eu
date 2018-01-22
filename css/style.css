@@ -239,9 +239,9 @@ h3 {
     padding: 10% 20px 2% 30px;
     padding: 17px 17px;
     margin: auto;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 90px;
+}
+.aboutText p {
+    margin-bottom: 0 !important;
 }
 
 @media screen and (min-width: 480px) {
@@ -253,7 +253,7 @@ h3 {
 
 @media screen and (min-width: 720px) {
     .aboutText {
-        padding: 96px 32px 48px 32px;
+        padding: 96px 32px 96px 32px;
         margin:auto;
     }
 }
