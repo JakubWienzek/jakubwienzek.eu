@@ -239,6 +239,9 @@ h3 {
     padding: 10% 20px 2% 30px;
     padding: 17px 17px;
     margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
 }
 
 @media screen and (min-width: 480px) {
